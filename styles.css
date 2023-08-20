@@ -18,13 +18,13 @@ div {
         padding-bottom: 1%;
 }
 .middle:hover {
-    transition: 0.3s;
+    transition: 0.5s;
     color: rgb(216,217,220);
-    font-size: 15pt;
+    font-size: 14pt;
 }
 
 .middle:active {
-    transition: 0.3s;
+    transition: 0.5s;
     color: rgb(216,217,220);
     font-size: 15pt;
 }
