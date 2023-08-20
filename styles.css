@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(59,66,82);
+}
+
+div {
+    transition: 0.5s;
+    color: rgb(177,179,186);
+    text-align: center;
+}
+
+.upper {
+    font-size: large;
+}
+
+.middle {
+        text-justify: distribute;
+        font-size: large;
+}
+.middle:hover {
+    transition: 0.3s;
+    color: rgb(216,217,220);
+    font-size: 15pt;
+}
+
+.middle:active {
+    transition: 0.3s;
+    color: rgb(216,217,220);
+    font-size: 15pt;
+}
+
+.hover:hover {
+    color: rgb(216,217,220);
+    font-size: 14pt;
+}
+
+.bottom {
+    color: rgb(126, 126, 126);
+}
+
+html::-webkit-scrollbar {
+    width: 10px;
+    }
+
+    html::-webkit-scrollbar-thumb {
+        background: rgb(216,217,220);
+        }
+
+        html::-webkit-scrollbar-track {
+            background: rgb(59,66,82);
+            box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5);
+            }
